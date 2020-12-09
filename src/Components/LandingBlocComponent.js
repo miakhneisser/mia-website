@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import { withStyles } from "@material-ui/core/styles";
-import { primaryColor, white } from "../static/colors";
-import Grid from "@material-ui/core/Grid";
-import { Typography } from "@material-ui/core";
+import { white } from "../static/colors";
 import landingImage from "../images/landing-image.jpg";
 import Icon from '../Icon'
 import { Parallax } from "react-parallax";

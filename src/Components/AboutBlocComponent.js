@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { withStyles } from "@material-ui/core/styles";
-import { primaryColor, white, background } from "../static/colors";
+import { background } from "../static/colors";
 import ProfileTitleComponent from './ProfileTitleComponent';
 import DescriptionBlocComponent from './DescriptionBlocComponent';
 import DetailsBlocComponent from './DetailsBlocComponent';
 import Grid from "@material-ui/core/Grid";
-import { Typography } from "@material-ui/core";
 import { Parallax } from 'react-scroll-parallax';
 import imageProfile from '../images/mia-profile.jpg';
-
-const loginWidth = 350;
 
 const styles = theme => ({
     container: {
         minHeight: '100vh',
         overflow: 'hidden',
-        padding: '6vh',
+        padding: '8vw',
         justifyContent: 'space-around',
     },
     content: {
@@ -49,7 +46,7 @@ const AboutBlocComponent = (props) => {
 
           <Parallax
                 className={classes.imgBloc}
-                y={[10, -40]}
+                y={[10, -20]}
                 >
 
             <Grid container className={classes.content}

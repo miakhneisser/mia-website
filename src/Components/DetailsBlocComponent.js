@@ -1,11 +1,8 @@
-import React, { useState, useEffect } from 'react';
 import { withStyles } from "@material-ui/core/styles";
-import { primaryColor, white, textColor } from "../static/colors";
+import { primaryColor } from "../static/colors";
 import DescriptionItemComponent from './DescriptionItemComponent';
 import Grid from "@material-ui/core/Grid";
 import { Typography } from "@material-ui/core";
-import { Parallax } from 'react-scroll-parallax';
-import imageProfile from '../images/mia-profile.jpg';
 import Icon from '../Icon'
 
 const styles = theme => ({

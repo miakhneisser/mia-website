@@ -1,17 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { withStyles } from "@material-ui/core/styles";
-import { primaryColor, white, background } from "../static/colors";
+import { primaryColor, background } from "../static/colors";
 import Grid from "@material-ui/core/Grid";
-import { Typography } from "@material-ui/core";
 import { Parallax } from 'react-scroll-parallax';
-import imageProfile from '../images/mia-profile.jpg';
-
-const loginWidth = 350;
 
 const styles = theme => ({
     header: {
         width: '100%',
-        top: '-45px',
+        top: '-20px',
         position: 'relative',
     },
     title: {
