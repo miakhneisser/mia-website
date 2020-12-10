@@ -28,7 +28,6 @@ const styles = theme => ({
 });
 
 const experiences = [{position: 'Full Stack Engineer | Data Scientist', company: 'NeoXam - Paris, France', period: '02/2019 - Present', description: 'Create dashboards that help clients monitor their funds and generate reports automatically.'},
-                     {position: 'Full Stack Engineer | Side project', company: 'Boursonomic - Paris, France', period: '02/2020 - Present', description: 'Boursonomic project will allow each user to track their investments: the user will have the possibility to see the performance of their funds, how much money they gained or lost and even follow the news related to topics they\'re interested in.'},
                      {position: 'Data Scientist', company: 'AXA France - Paris, France', period: '07/2018 - 12/2018', description: 'Created a model to optimize the purchase of leads.\nCreated a named entity corpus in French based on Wikipedia’s articles.'},
                      {position: 'Internship', company: 'Haute Ecole d’ingénieurie et d’architectes de Fribourg – Freiburg, Switzerland', period: '07/2016 - 09/2016', description: 'Modified the library webRTC and added functionalities to the project.'}]
 
