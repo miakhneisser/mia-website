@@ -3,6 +3,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import LandingBlocComponent from './LandingBlocComponent';
 import AboutBlocComponent from './AboutBlocComponent';
 import ExperienceBlocComponent from './ExperienceBlocComponent';
+import ProjectsBlocComponent from './ProjectsBlocComponent';
 
 function HomeComponent() {
     return (
@@ -10,6 +11,7 @@ function HomeComponent() {
         <LandingBlocComponent />
         <AboutBlocComponent />
         <ExperienceBlocComponent />
+        <ProjectsBlocComponent />
         <LandingBlocComponent />
       </ParallaxProvider>
     )

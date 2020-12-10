@@ -44,7 +44,7 @@ const ProfileTitleComponent = (props) => {
             {title.map((letter, i) => (
                 <Parallax
                     key={`copy-${i}`}
-                    x={[0 + 'px', 50 * (i - 3) + 'px']}
+                    x={[0 + 'px', 30 * (i - 3) + 'px']}
                     className={classes.letter}
                 >
                     {letter}

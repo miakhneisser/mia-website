@@ -37,6 +37,7 @@ const styles = theme => ({
     link: {
       justifyContent: 'center',
       display: 'flex',
+      cursor: 'pointer',
     },
 });
 
@@ -52,8 +53,8 @@ const DescriptionBlocComponent = (props) => {
                     <DescriptionItemComponent title="Location" value="Paris, France" />
                     <DescriptionItemComponent title="Number" value="(+33) 7 67 43 60 84" />
                     <Grid container className={classes.buttons} direction="row">
-                      <a className={classes.link} href="https://www.linkedin.com/in/mia-nasr-khneisser/" target="_blank"> <Icon className={`${classes.icons} ${classes.linkedin}`} name="linkedin" color={primaryColor} size={25} /> </a>
-                      <a className={classes.link} href="https://github.com/miakhneisser" target="_blank"> <Icon className={`${classes.icons} ${classes.github}`} name="github" color={primaryColor} size={25} /> </a>
+                      <a className={classes.link} href="https://www.linkedin.com/in/mia-nasr-khneisser/" rel="noreferrer" target="_blank"> <Icon className={`${classes.icons} ${classes.linkedin}`} name="linkedin" color={primaryColor} size={25} /> </a>
+                      <a className={classes.link} href="https://github.com/miakhneisser" rel="noreferrer" target="_blank"> <Icon className={`${classes.icons} ${classes.github}`} name="github" color={primaryColor} size={25} /> </a>
                       <a className={classes.link} href = "mailto: mia.g.kh@gmail.com"> <Icon className={`${classes.icons} ${classes.email}`} name="email" color={primaryColor} size={25} /> </a>
                       <Grid item className={classes.downloadCV} >
                         <a href="/NASR_KHNEISSER_Mia_CV.pdf" download className={classes.downloadCVLink}>
