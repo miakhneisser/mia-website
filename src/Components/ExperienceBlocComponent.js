@@ -46,7 +46,7 @@ const ExperienceBlocComponent = (props) => {
           <ExperienceTitleBlocComponent />
           <Grid container className={classes.experiencesEducationBloc} direction="row" justify="space-between">
             <Grid container className={classes.blocs} direction="column" >
-              <Typography item className={classes.title} component="h2"> experience </Typography>
+              <Typography item className={classes.title} component="h2"> Experience </Typography>
               {
                 experiences.length > 0 ? experiences.map(row =>
                 <ExperienceContentBlocComponent period={row.period} position={row.position} company={row.company} description={row.description}/>
@@ -55,7 +55,7 @@ const ExperienceBlocComponent = (props) => {
               }
             </Grid>
             <Grid container className={classes.blocs} direction="column" >
-              <Typography item className={classes.title} component="h2"> education </Typography>
+              <Typography item className={classes.title} component="h2"> Education </Typography>
               {
                 educations.length > 0 ? educations.map(row =>
                 <ExperienceContentBlocComponent period={row.period} position={row.position} company={row.company}/>

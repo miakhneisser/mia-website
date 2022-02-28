@@ -1,5 +1,6 @@
 import './App.css';
 import './common/common.css';
+import './common/carousel.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import StartupComponent from "./Components/StartupComponent";
 

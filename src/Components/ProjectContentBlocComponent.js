@@ -1,18 +1,17 @@
 import { withStyles } from "@material-ui/core/styles";
-import { primaryColor, textColor, textLightColor } from "../static/colors";
+import { primaryColor, textColor, textLightColor, background } from "../static/colors";
 import Grid from "@material-ui/core/Grid";
 import { Typography } from "@material-ui/core";
 
 const styles = theme => ({
     container: {
-        width: '35vw',
+        width: '40vw',
         minWidth: '315px',
-        maxWidth: '600px',
         border: `3px solid ${primaryColor}`,
         padding: '25px',
         marginBottom: '4vh',
         borderRadius: '10px',
-        position: 'relative',
+        background: background,
     },
     name: {
         fontWeight: 'bold',
@@ -27,17 +26,19 @@ const styles = theme => ({
     },
     period: {
       color: textLightColor,
+      fontSize: 'x-large',
+      fontWeight: 'bold',
+      textAlign: 'center',
+      marginBottom: '4px',
     },
     description: {
       whiteSpace: 'pre-line',
       textAlign: 'justify',
-      marginBottom: '50px',
+      marginBottom: '25px',
     },
     techno: {
       fontWeight: 'bold',
       color: textColor,
-      position: 'absolute',
-      bottom: '25px',
       width: 'calc(100% - 50px)',
     },
 });
@@ -47,14 +48,16 @@ const ProjectContentBlocComponent = (props) => {
     const { type, name, period, description, techno } = props;
 
     return (
-          <Grid container className={classes.container} direction="column">
-            <Grid container direction="row" justify="space-between" alignItems="center">
-              <Typography item className={classes.name} component="h2"> {name} </Typography>
-              <Typography item className={classes.type} component="h2"> {type} </Typography>
-            </Grid>
+          <Grid container className={classes.global} direction="column">
             <Typography item className={classes.period} component="h2"> {period} </Typography>
-            <Typography item className={classes.description} component="h2"> {description} </Typography>
-            <Typography item className={classes.techno} component="h2"> {techno.join(', ')} </Typography>
+            <Grid container className={classes.container} direction="column">
+              <Grid container direction="row" justify="space-between" alignItems="center">
+                <Typography item className={classes.name} component="h2"> {name} </Typography>
+                <Typography item className={classes.type} component="h2"> {type} </Typography>
+              </Grid>
+              <Typography item className={classes.description} component="h2"> {description} </Typography>
+              <Typography item className={classes.techno} component="h2"> {techno.join(', ')} </Typography>
+            </Grid>
           </Grid>
     );
 

@@ -21,7 +21,7 @@ const styles = theme => ({
         alignItems: 'center',
     },
     icons: {
-        marginRight: '2vw',
+        cursor: 'pointer',
     },
     downloadCV: {
         color: primaryColor,
@@ -35,9 +35,9 @@ const styles = theme => ({
       fontWeight: 'bold',
     },
     link: {
-      justifyContent: 'center',
       display: 'flex',
-      cursor: 'pointer',
+      width: '60px',
+      cursor: 'default',
     },
 });
 
