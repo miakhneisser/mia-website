@@ -1,0 +1,20 @@
+.MuiGrid-container .css-1qzevvg {
+  position: absolute;
+  height: 100%;
+  width: calc(40vw + 25px);
+  min-width: 340px;
+  justify-content: center;
+  top: 0;
+  align-items: center;
+  z-index: 111;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiGrid-container .css-1qzevvg img{
+  height: 10%;
+}
+.MuiGrid-container .css-1qzevvg img:first-child{
+  margin-right: 10%;
+}
