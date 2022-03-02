@@ -55,7 +55,7 @@ const AboutBlocComponent = (props) => {
                 <DescriptionBlocComponent />
 
                 <Grid item className={classes.imageBloc}>
-                  <img className={classes.imgProfile} src={imageProfile} alt="profile-image" />
+                  <img className={classes.imgProfile} src={imageProfile} alt="profile" />
                 </Grid>
 
                 <DetailsBlocComponent />

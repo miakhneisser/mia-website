@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { withStyles } from "@material-ui/core/styles";
 import { background } from "../static/colors";
 import ProjectsTitleBlocComponent from './ProjectsTitleBlocComponent';
-import ProjectContentBlocComponent from './ProjectContentBlocComponent';
 import Example from './Example';
 import Grid from "@material-ui/core/Grid";
 
