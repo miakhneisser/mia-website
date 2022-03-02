@@ -15,6 +15,7 @@ function HomeComponent() {
         <ProjectsBlocComponent />
         <ProjectsTestBlocComponent />
         <LandingBlocComponent />
+        <LandingBlocComponent />
       </ParallaxProvider>
     )
 }
