@@ -4,7 +4,6 @@ import LandingBlocComponent from './LandingBlocComponent';
 import AboutBlocComponent from './AboutBlocComponent';
 import ExperienceBlocComponent from './ExperienceBlocComponent';
 import ProjectsBlocComponent from './ProjectsBlocComponent';
-import ProjectsTestBlocComponent from './ProjectsTestBlocComponent';
 
 function HomeComponent() {
     return (
@@ -13,8 +12,6 @@ function HomeComponent() {
         <AboutBlocComponent />
         <ExperienceBlocComponent />
         <ProjectsBlocComponent />
-        <ProjectsTestBlocComponent />
-        <LandingBlocComponent />
         <LandingBlocComponent />
       </ParallaxProvider>
     )
